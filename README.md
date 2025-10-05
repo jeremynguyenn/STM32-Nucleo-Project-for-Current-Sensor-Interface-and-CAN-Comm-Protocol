@@ -11,6 +11,8 @@ This project demonstrates a modular firmware design for an STM32F091RC Nucleo bo
 Below is the **block diagram** of the system:
 <img width="725" height="760" alt="image" src="https://github.com/user-attachments/assets/a2617ad3-b51f-4b30-8ed3-85d7fa5ada39" />
 
+
+https://github.com/jeremynguyenn/STM32-Nucleo-Project-for-Current-Sensor-Interface-and-CAN-Comm-Protocol/blob/main/Project_Functionality_video.gif
 ## Key Features
 
 ### Role Configuration
