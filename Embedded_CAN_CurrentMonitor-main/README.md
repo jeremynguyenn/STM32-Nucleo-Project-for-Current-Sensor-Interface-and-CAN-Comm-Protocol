@@ -1,7 +1,7 @@
-# STM32F091RC Nucleo Project for Current Sensor Interface and CAN Comm Protocol
+# STM32F103rb Nucleo Project for Current Sensor Interface and CAN Comm Protocol
 
 ## Overview
-This project demonstrates a modular firmware design for an STM32F091RC Nucleo board. The project supports both transmitter and receiver roles, configurable via `#define` directives in the `main.c` file. It also provides functionality for debugging, UART-based data communication, and testing protocols. The firmware allows:
+This project demonstrates a modular firmware design for an STM32F103rb Nucleo board. The project supports both transmitter and receiver roles, configurable via `#define` directives in the `main.c` file. It also provides functionality for debugging, UART-based data communication, and testing protocols. The firmware allows:
 
 - Configurable roles as **Transmitter** or **Receiver**.
 - Debug mode testing for the communication protocol.
@@ -53,7 +53,7 @@ The INA219 sensor can be configured for different voltage ranges using `#ifdef` 
 - If IDs are changed, ensure that corresponding values in the initialization function are also updated in `can.c` and `global.c` files.
 
 ## Hardware Connections
-### STM32F091RC Nucleo Pin Configuration
+### STM32F103rb Nucleo Pin Configuration
 
 #### I2C Interface (for INA219 Sensor)
 | Function | Pin Number |
